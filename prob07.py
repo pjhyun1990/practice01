@@ -3,6 +3,17 @@
 l = []
 s = 0
 
+while len(l) != 5:
+    n = input(" 정수를 입력하시오 : ")
+    if n.isdigit() is False:
+        print('Error: is not digit')
+        continue
+
+    l.append(int(n))
+
+print(l)
+
+
 print(sum(l, 0)/len(l))
 
 
