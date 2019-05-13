@@ -2,7 +2,7 @@
 
 
 def reverse(s):
-    return s[::-1]
+    pass
 
 
 instr = input('입력> ')
